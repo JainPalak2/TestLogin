@@ -1,0 +1,155 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-23T17:16:21.290Z",
+        "line": 10,
+        "name": "valid login user",
+        "description": "",
+        "id": "login-feature;valid-login-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 98410000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user should be in login page",
+            "match": {
+              "location": "dave.AbcObject.user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters \"Lalitha\" as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 12
+                }
+              ],
+              "location": "dave.AbcObject.user_enters_as_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 166000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"password123\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password123\"",
+                  "offset": 12
+                }
+              ],
+              "location": "dave.AbcObject.user_enters_as_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15644000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "dave.AbcObject.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-23T17:18:15.803Z",
+        "line": 11,
+        "name": "valid login user",
+        "description": "",
+        "id": "login-feature;valid-login-user;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 88574000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user should be in login page",
+            "match": {
+              "location": "dave.AbcObject.user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters \"Admin\" as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 12
+                }
+              ],
+              "location": "dave.AbcObject.user_enters_as_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"password456\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password456\"",
+                  "offset": 12
+                }
+              ],
+              "location": "dave.AbcObject.user_enters_as_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9356000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "dave.AbcObject.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/rohit/user.feature",
+    "tags": []
+  }
+]
